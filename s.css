@@ -559,6 +559,17 @@ border-bottom: 1px solid white;
     align-items: center;
     justify-content: space-between;
 }
+@media only screen and (min-width:1701px) and  (max-width:10000px)
+{
+    .container{
+        width: 1450px;
+    }
+    .container2{
+        width:1200px;
+        background: rgb(20,13,13);
+        background: linear-gradient(180deg, rgba(20,13,13,1) 39%, rgba(19,51,32,1) 73%);
+    }
+}
 @media only screen and (min-width: 1200px) and (max-width:1500px){
 .container
 {
