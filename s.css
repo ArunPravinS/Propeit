@@ -764,6 +764,18 @@ border-bottom: 1px solid white;
     .section3part1paragraph p {
         text-align: left;
     }
+    .footerflex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* gap: 30px; */
+    }
+    .footerright{
+        align-items: flex-start;
+    }
+    .foo{
+        flex-direction: column;
+    }
 }
 @media only screen and (min-width:375px) and (max-width:424px){
     .h1team {
@@ -781,6 +793,15 @@ border-bottom: 1px solid white;
     .image2 {
         position: absolute;
         transform: translate(21%, 9%);
+    }
+    .footerflex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* gap: 30px; */
+    }
+    .footerright{
+        align-items: flex-start;
     }
 }
 @media only screen and (min-width:310px) and (max-width:374px) {
