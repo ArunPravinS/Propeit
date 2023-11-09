@@ -527,6 +527,7 @@ background: linear-gradient(180deg, rgba(20,13,13,1) 39%, rgba(19,51,32,1) 73%);
 }
 .footer{
     padding-bottom: 20px;
+    padding-top:10px;
 border-bottom: 1px solid white;
 }
 .foo{
