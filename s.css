@@ -9,6 +9,20 @@ body{
     padding: 0 !important;
 
 }
+.white{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.green{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+
+}
+.headerfixed{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 .headerfixed{
     position: sticky;
     left: 0;
